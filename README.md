@@ -4,6 +4,8 @@ This mod resizes the fonts of the chat, center HUD and default text, setting a m
 |:--------------:|:----------------:|:-------:|
 | 1080 | ![20250226161256_1](https://github.com/user-attachments/assets/381465ee-89e5-4b7e-b6e7-42d21d33aa6e)| ![20250226162258_1](https://github.com/user-attachments/assets/95e84edd-748f-4ff8-8a8a-d771f927603d) |
 | 4k   | ![20250226161122_1](https://github.com/user-attachments/assets/2c6d0f35-bb72-403b-a3f0-3cc75a1ab2c6)| ![20250226160826_1](https://github.com/user-attachments/assets/329aceed-d0df-40ed-9f65-b8167545539a) |
+| 1080p (Game menu)   | ![20250226224217_1](https://github.com/user-attachments/assets/f1d668ed-463f-49bc-8fed-1bc24323e439) | ![20250226224309_1](https://github.com/user-attachments/assets/c4056171-b40a-489b-b0d2-9acaa122d6ce) |
+| 4k (Game menu)   | ![20250226224130_1](https://github.com/user-attachments/assets/ed45ff12-4bef-4325-9923-b14beb99ee12)| ![20250226223959_1](https://github.com/user-attachments/assets/df5636a4-754b-41c0-9040-c9114da23ae2) |
 
 # Installation
 1. Download and unzip the repository files. Keep them in the unzipped folder.
