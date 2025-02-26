@@ -831,6 +831,8 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+	
+		//Center speed units
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
@@ -838,7 +840,7 @@ Scheme
 			{
 				"name"		"Trebuchet MS" [!$OSX]
 				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
+				"tall"		"12"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
