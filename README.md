@@ -34,7 +34,7 @@ I.E.  `HudHintText` would show as follows:
   }
 }
 ```
-Notice the child nodes "1", "2" (there is up to 5) and their attribute `yres`. This is the vertical resolution. You have to modify the child node according to your resolution in game. 
+Notice the child nodes "1", "2" (there is up to 5 or even more in some cases) and their attribute `yres`. This is the vertical resolution. You have to modify the child node according to your resolution in game. 
 
 __Example:__ if you play at 800 x 600, you will have to modify the `tall` attribute of the node `"2"`. Whenever you change this, you will have to restart the game to see the changes applied.
 
