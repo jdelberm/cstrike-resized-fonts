@@ -44,7 +44,7 @@ I updated the following ones:
         </tr>
         <tr>
             <td><code>CenterPrintText</code></td>
-            <td>Center speed units indicator.</td>
+            <td><p>Center speed units indicator.</p><p><i>To get this setting working in KSF servers, you need to enable the center HUD color option (<code>!surftimer</code> > 4 > 2 = [ON])</i></p></td>
         </tr>
     </tbody>
 </table>
