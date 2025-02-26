@@ -72,8 +72,12 @@ I.E.  `HudHintText` would show as follows:
 ```
 Notice the child nodes `"1"`, `"2"` (there is up to 5 or even more in some cases) and their attribute `yres`. This is the vertical resolution. You have to modify the child node according to the range where your resolution in game falls.
 
-__Example:__ if you play at 800 x 600, the vertical resolution(`600`) falls between the `yres` values of `600` and `767` in the node `"2"`, so you will have to modify the `tall` attribute in that child node for setting a different font size.
+## Example
+<hr>
+If you play at 800 x 600, the vertical resolution(<code>600</code>) falls between the <code>yres</code> values of <code>600</code> and <code>767</code> in the child node <code>"2"</code>, so you will have to modify the <code>tall</code> attribute in that child node for setting a different font size.
+<hr>
 
 Whenever you change this, you will have to restart the game to see the changes applied.
 
-*Note: you can create as many child nodes as you want. You could also have one child node per resolution by limiting the `yres` range to the desired vertical resolution. Just make sure to give to all the child nodes a sequential numeric name and to not overlap the `yres` range, leaving always one pixel of margin (i.e. from `"yres" "1080 2159"` to `"yres" "2160 10000"`)*
+*Note: you can create as many child nodes as you want. 
+You could also have one child node per resolution by limiting the `yres` range to the desired vertical resolution. Just make sure to give to all the child nodes a sequential numeric name and to not overlap the `yres` range, leaving always one pixel of margin (i.e. from `"yres" "1080 2159"` to `"yres" "2160 10000"`)*
