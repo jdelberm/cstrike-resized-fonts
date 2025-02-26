@@ -1,5 +1,10 @@
 This mod resizes the fonts of the chat, center HUD and default text, setting a more appropiate size accordingly to what it used to be before the update of 18 february 2025 of Counter Strike Source, where font family got updated and was made scalable.
 
+| Resolution     |      Before      |  After  |
+|:--------------:|:----------------:|:-------:|
+| 1080 | ![20250226161256_1](https://github.com/user-attachments/assets/381465ee-89e5-4b7e-b6e7-42d21d33aa6e)| ![20250226162258_1](https://github.com/user-attachments/assets/95e84edd-748f-4ff8-8a8a-d771f927603d) |
+| 4k   | ![20250226161122_1](https://github.com/user-attachments/assets/2c6d0f35-bb72-403b-a3f0-3cc75a1ab2c6)| ![20250226160826_1](https://github.com/user-attachments/assets/329aceed-d0df-40ed-9f65-b8167545539a) |
+
 # Installation
 1. Download and unzip the repository files. Keep them in the unzipped folder.
 2. Place it in the following path: ``steamapps\common\Counter-Strike Source\cstrike\custom\``
