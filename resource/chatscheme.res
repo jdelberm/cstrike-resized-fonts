@@ -393,8 +393,8 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"22"	[!$POSIX]
-				"tall"		"25"	[$POSIX]
+				"tall"		"15"	[!$POSIX]
+				"tall"		"18"	[$POSIX]
 				"weight"	"600"
 				"yres"		"1024 2159"
 				"dropshadow"	"1"
