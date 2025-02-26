@@ -15,8 +15,9 @@ You will have to look for the nodes that represents the font settings of the dif
 
 I updated the following ones:
 - `/resource/ClientScheme.res`
-  - `HudHintText`: this is the center HUD.
-  - `Default`: HUD at the right falls under this node.
+  - `HudHintText`: this is the center HUD (time, zone, start speed, etc).
+  - `Default`: HUD at the right falls under this node (map/stage/bonus record and personal record, etc).
+  - `CenterPrintText`: center speed units indicator.
 - `/resource/ChatScheme.res`
   -  `ChatFont`: self explanatory.
 
