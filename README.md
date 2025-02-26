@@ -1,4 +1,4 @@
-This mod resizes the fonts of the chat, center HUD and default text, setting a more appropiate size accordinly to what it used to be before the update of 18 february 2025 of Counter Strike Source, where font family got updated and was made scalable.
+This mod resizes the fonts of the chat, center HUD and default text, setting a more appropiate size accordingly to what it used to be before the update of 18 february 2025 of Counter Strike Source, where font family got updated and was made scalable.
 
 # Installation
 1. Download and unzip the repository files. Keep them in the unzipped folder.
@@ -6,7 +6,9 @@ This mod resizes the fonts of the chat, center HUD and default text, setting a m
 
 # Customization
 
-You will have to look for the nodes that represents the font settings of the different UI components. I updated the following ones:
+You will have to look for the nodes that represents the font settings of the different UI components and modify the `tall` attribute to change the font size. 
+
+I updated the following ones:
 - `/resource/ClientScheme.res`
   - `HudHintText`: this is the center HUD.
   - `Default`: HUD at the right falls under this node.
@@ -36,7 +38,7 @@ I.E.  `HudHintText` would show as follows:
 ```
 Notice the child nodes `"1"`, `"2"` (there is up to 5 or even more in some cases) and their attribute `yres`. This is the vertical resolution. You have to modify the child node according to the range where your resolution in game falls.
 
-__Example:__ if you play at 800 x 600, the vertical resolution(`600`) falls between the `yres` values of `600` and `767` in the node `"2"`, so you will have to modify the `tall` attribute in that child node.
+__Example:__ if you play at 800 x 600, the vertical resolution(`600`) falls between the `yres` values of `600` and `767` in the node `"2"`, so you will have to modify the `tall` attribute in that child node for setting a different font size.
 
 Whenever you change this, you will have to restart the game to see the changes applied.
 
