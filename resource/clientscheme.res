@@ -840,7 +840,7 @@ Scheme
 			{
 				"name"		"Trebuchet MS" [!$OSX]
 				"name"		"Helvetica" [$OSX]
-				"tall"		"12"
+				"tall"		"15"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
