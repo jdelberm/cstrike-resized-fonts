@@ -14,14 +14,40 @@ This mod resizes the fonts of the chat, center HUD and default text, setting a m
 You will have to look for the nodes that represents the font settings of the different UI components and modify the `tall` attribute to change the font size. 
 
 I updated the following ones:
-- `/resource/ClientScheme.res`
-  - `HudHintText`: this is the center HUD (time, zone, start speed, etc).
-  - `Default`: HUD at the right falls under this node (map/stage/bonus record and personal record, etc).
-  - `CenterPrintText`: center speed units indicator.
-- `/resource/ChatScheme.res`
-  -  `ChatFont`: self explanatory.
-- `/resource/SourceScheme.res`
-  -  `MenuLarge`: game menu items (works in conjuntion with `MainMenu.MenuItemHeight`, this is the separation between the items).
+<table>
+    <thead>
+        <tr>
+            <th>File</th>
+            <th>Node</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>/resource/SourceScheme.res</code></td>
+            <td><code>MenuLarge</code></td>
+            <td>Menu items (works in conjuntion with <code>MainMenu.MenuItemHeight</code>, items separation).</td>
+        </tr>
+         <tr>
+            <td><code>/resource/ChatScheme.res</code></td>
+            <td><code>ChatFont</code></td>
+            <td>Self explanatory.</td>
+        </tr>
+        <tr>
+            <td rowspan=3><code>/resource/ClientScheme.res</code></td>
+            <td><code>HudHintText</code></td>
+            <td>Center HUD (time, zone, start speed, etc).</td>
+        </tr>
+        <tr>
+            <td><code>Default</code></td>
+            <td>Right HUD. It doesn't have a specific setting (stage record, personal record, etc).</td>
+        </tr>
+        <tr>
+            <td><code>CenterPrintText</code></td>
+            <td>Center speed units indicator.</td>
+        </tr>
+    </tbody>
+</table>
 
 I.E.  `HudHintText` would show as follows:
 ```
