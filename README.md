@@ -20,6 +20,8 @@ I updated the following ones:
   - `CenterPrintText`: center speed units indicator.
 - `/resource/ChatScheme.res`
   -  `ChatFont`: self explanatory.
+- `/resource/SourceScheme.res`
+  -  `MenuLarge`: game menu items (works in conjuntion with `MainMenu.MenuItemHeight`, this is the separation between the items).
 
 I.E.  `HudHintText` would show as follows:
 ```
