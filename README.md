@@ -28,7 +28,7 @@ I updated the following ones:
         <tr>
             <td><code>/resource/SourceScheme.res</code></td>
             <td><code>MenuLarge</code></td>
-            <td>Menu items (works in conjuntion with <code>MainMenu.MenuItemHeight</code>, items separation).</td>
+            <td><p>Menu items</p><p><i>Works in conjuntion with <code>MainMenu.MenuItemHeight</code>, which is the separation between items.<i></p></td>
         </tr>
          <tr>
             <td><code>/resource/ChatScheme.res</code></td>
